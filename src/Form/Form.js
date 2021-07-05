@@ -29,9 +29,19 @@ function Form() {
           <select>
             <option value="laranja">Laranja</option>
             <option value="limao">Limão</option>
-            <option selected value="coco">Coco</option>
+            <option value="coco">Coco</option>
             <option value="manga">Manga</option>
           </select>
+
+          <fieldset id="sexo" required>
+            <legend>Sexo</legend>
+            <input type="radio" id="SexoFem" name="Sexo" />
+            <label for="SexoFem">Feminino</label>
+            <input type="radio" id="SexoMasc" name="Sexo" />
+            <label for="SexoMasc">Masculino</label>
+            <input type="radio" id="SexoOutro" name="Sexo" />
+            <label for="SexoOutro">Outro</label>
+          </fieldset>
 
           <fieldset>
             <legend>Qual sua comida favorita ?</legend>
