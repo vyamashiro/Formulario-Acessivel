@@ -15,7 +15,7 @@ function Form() {
           <legend>Title</legend>
           <label htmlFor="form_name" accessKey="1">
             Nome:
-            <input type="text" id="form_name" name="form_name" placeholder="escreva o seu nome" tabIndex="0" />
+            <input type="text" id="form_name" name="form_name" placeholder="escreva o seu nome" />
           </label>
 
           <label htmlFor="form_surname">
@@ -28,7 +28,7 @@ function Form() {
         <p>Suas preferências</p>
 
         <fieldset>
-          <legend>Qual sua comida favorita ?</legend>
+          <legend>Qual dos tipos de comida abaixo você gosta ?</legend>
           <label htmlFor="Mexicana">
             <input type="checkbox" id="Mexicana" accessKey="2" />
             Mexicana
@@ -54,11 +54,11 @@ function Form() {
         <fieldset id="opcaoEntrega" required>
           <legend>Opção de entrega</legend>
           <label htmlFor="opçãoLocal">
-            <input type="radio" id="opçãoLocal" name="opcaoEntrega" value="Local" tabIndex="0" />
+            <input type="radio" id="opçãoLocal" name="opcaoEntrega" value="Local" />
             Local
           </label>
           <label htmlFor="opçãoDomicilio">
-            <input type="radio" id="opçãoDomicilio" name="opcaoEntrega" value="Domicilio" tabIndex="0" />
+            <input type="radio" id="opçãoDomicilio" name="opcaoEntrega" value="Domicilio" />
             Domicílio
           </label>
         </fieldset>

@@ -1,17 +1,11 @@
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 
 export const Nav = styled.nav`
-    display: grid;
-    /* flex-direction: row; */
-    /* justify-content: center; */
-    /* grid-auto-rows: 20px; */
-    grid-template-columns: 50px 50px 50px;
-    justify-content: space-around;
     width: 100%;
+    text-align: center;
 `;
-export const NavItem = styled.span`
+export const NavItem = styled.li`
     list-style: none;
-    /* justify-content: space-around; */
-    /* display: grid; */
-    /* flex-direction: column; */
+    display: inline-block;
+    margin-right: 10px;
 `;

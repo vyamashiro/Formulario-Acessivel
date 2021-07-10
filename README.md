@@ -24,6 +24,9 @@ Próximos passos
 - Implementar aumento/diminuição da Fonte
 - Implementar contraste preto/branco
 - Implementar Rodapé
+- Adicionar no rodapé uma tag address com um endereço fictício
+- Adicionar no rodapé um trecho de mídia social
 - Aviso de envio do formulário 
 - Mapa de atalhos
+- Implementar busca por áudio (vide API do Google)
 -->
