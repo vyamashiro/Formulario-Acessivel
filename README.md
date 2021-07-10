@@ -19,8 +19,11 @@ NVDA
 
 <!-- 
 Próximos passos
+- Ajustar CSS
+- Implementar aumento/diminuição do Zoom
+- Implementar aumento/diminuição da Fonte
+- Implementar contraste preto/branco
+- Implementar Rodapé
 - Aviso de envio do formulário 
 - Mapa de atalhos
-- Ajustar CSS
-- Implementar Rodapé
 -->

@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 /* eslint-disable jsx-a11y/no-access-key */
 import React from 'react';
 import Navbar from './navbar/Navbar';
@@ -10,51 +9,28 @@ function Form() {
       <h1>Formulário Acessível</h1>
 
       <form>
-        <p accessKey="1">Dados Gerais</p>
+        <p>Dados Gerais</p>
 
         <fieldset>
           <legend>Title</legend>
-          <label htmlFor="form_name">
-            <input type="text" id="form_name" name="form_name" placeholder="escreva o seu nome" />
+          <label htmlFor="form_name" accessKey="1">
             Nome:
+            <input type="text" id="form_name" name="form_name" placeholder="escreva o seu nome" tabIndex="0" />
           </label>
 
           <label htmlFor="form_surname">
-            <input type="text" id="form_surname" surname="form_surname" placeholder="escreva o seu sobrenome" />
             Sobrenome:
+            <input type="text" id="form_surname" surname="form_surname" placeholder="escreva o seu sobrenome" />
           </label>
 
         </fieldset>
 
-        <p accessKey="2">Suas preferências</p>
-
-        <select>
-          <option value="laranja">Laranja</option>
-          <option value="limao">Limão</option>
-          <option value="coco">Coco</option>
-          <option value="manga">Manga</option>
-        </select>
-
-        <fieldset id="sexo" required>
-          <legend>Sexo</legend>
-          <label htmlFor="SexoFem">
-            <input type="radio" id="SexoFem" name="Sexo" />
-            Feminino
-          </label>
-          <label htmlFor="SexoMasc">
-            <input type="radio" id="SexoMasc" name="Sexo" />
-            Masculino
-          </label>
-          <label htmlFor="SexoOutro">
-            <input type="radio" id="SexoOutro" name="Sexo" />
-            Outro
-          </label>
-        </fieldset>
+        <p>Suas preferências</p>
 
         <fieldset>
           <legend>Qual sua comida favorita ?</legend>
           <label htmlFor="Mexicana">
-            <input type="checkbox" id="Mexicana" />
+            <input type="checkbox" id="Mexicana" accessKey="2" />
             Mexicana
           </label>
           <br />
@@ -73,6 +49,27 @@ function Form() {
             Brasileira
           </label>
           <br />
+        </fieldset>
+
+        <fieldset id="opcaoEntrega" required>
+          <legend>Opção de entrega</legend>
+          <label htmlFor="opçãoLocal">
+            <input type="radio" id="opçãoLocal" name="opcaoEntrega" value="Local" tabIndex="0" />
+            Local
+          </label>
+          <label htmlFor="opçãoDomicilio">
+            <input type="radio" id="opçãoDomicilio" name="opcaoEntrega" value="Domicilio" tabIndex="0" />
+            Domicílio
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Forma de pagamento</legend>
+          <select>
+            <option value="dinheiro">dinheiro</option>
+            <option value="cartão de crédito">cartão de crédito</option>
+            <option value="cartão de débito">cartão de débito</option>
+          </select>
         </fieldset>
 
         <fieldset>
