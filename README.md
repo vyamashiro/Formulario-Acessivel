@@ -12,9 +12,15 @@ Safari
 # Leitores de tela indicado
 NVDA
 
+# Principais dependências
+- React
+- Styled-Components
+- ESLint
+
 <!-- 
 Próximos passos
 - Aviso de envio do formulário 
 - Mapa de atalhos
 - Ajustar CSS
+- Implementar Rodapé
 -->

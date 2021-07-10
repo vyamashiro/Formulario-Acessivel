@@ -8,11 +8,10 @@ export const Nav = styled.nav`
     grid-template-columns: 50px 50px 50px;
     justify-content: space-around;
     width: 100%;
-`
-
+`;
 export const NavItem = styled.span`
     list-style: none;
     /* justify-content: space-around; */
     /* display: grid; */
     /* flex-direction: column; */
-`
+`;
