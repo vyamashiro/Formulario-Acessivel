@@ -1,11 +1,17 @@
 import styled from 'styled-components/macro';
 
+export const Header = styled.header`
+  align-content: center;
+  background-color: #e6e6dc;
+  display: grid;
+  height: 40px;
+`;
 export const Nav = styled.nav`
-    width: 100%;
-    text-align: center;
+  text-align: center;
+  width: 100%;
 `;
 export const NavItem = styled.li`
-    list-style: none;
-    display: inline-block;
-    margin-right: 10px;
+  display: inline-block;
+  list-style: none;
+  margin-right: 20px;
 `;
