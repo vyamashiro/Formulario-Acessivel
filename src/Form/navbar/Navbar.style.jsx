@@ -5,6 +5,7 @@ export const Header = styled.header`
   background-color: #e6e6dc;
   display: grid;
   height: 40px;
+  margin-bottom: 20px;
 `;
 export const Nav = styled.nav`
   text-align: center;

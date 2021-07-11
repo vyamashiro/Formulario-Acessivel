@@ -6,10 +6,10 @@ const Button = styled.button`
     box-shadow: 2px 2px 2px black;
     color: #FFFFFF;
     cursor: pointer;
+    display: block;
     height: 40px;
     min-width: 150px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 40px auto 40px;
     width: 200px;
 `;
 
