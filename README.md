@@ -20,6 +20,8 @@ NVDA
 <!-- 
 Próximos passos
 - Ajustar CSS
+- Adicionar WAI-ARIA
+- Ajustar nomes para português
 - Implementar aumento/diminuição do Zoom
 - Implementar aumento/diminuição da Fonte
 - Implementar contraste preto/branco
