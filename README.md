@@ -1,15 +1,11 @@
-# Form_Acessibilidade
-Formulário com acessibilidade para leitor de tela.
+## Formulário Acessível
 Formulário modelo para treino de técnicas de acessibilidades, tais como:
-
 -Atalho para seções específicas
--Controle de tabulação
-# Atalhos para seções do formulário de acordo com o browser.
-Chrome
-Firefox
-Safari
+-WAI-ARIA
+-Aumento/Diminuição de fonte
+-Aumento/Diminuição de contraste
 
-# Leitores de tela indicado
+# Exempos de leitores de tela
 NVDA
 
 # Principais dependências
