@@ -1,14 +1,14 @@
 ## Formulário Acessível
 Formulário modelo para treino de técnicas de acessibilidades, tais como:
--Atalho para seções específicas
--WAI-ARIA
--Aumento/Diminuição de fonte
--Aumento/Diminuição de contraste
+- Atalho para seções específicas;
+- WAI-ARIA;
+- Aumento/Diminuição de fonte;
+- Aumento/Diminuição de contraste.
 
-# Exempos de leitores de tela
-NVDA
+## Exempos de leitores de tela
+- NVDA
 
-# Principais dependências
+## Principais dependências
 - React
 - Styled-Components
 - ESLint
