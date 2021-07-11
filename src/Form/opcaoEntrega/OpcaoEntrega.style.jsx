@@ -1,7 +1,9 @@
 import styled from 'styled-components/macro';
 
+export const ContainerOpcaoEntrega = styled.div`
+  margin-top: 20px;
+`;
 export const Label = styled.label`
-  margin-bottom: 50px;
 `;
 export const InputRadio = styled.input`
   margin-left: 10px;

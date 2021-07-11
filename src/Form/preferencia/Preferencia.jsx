@@ -3,10 +3,8 @@ import React from 'react';
 import * as Styled from './Preferencia.style';
 
 const Preferencia = () => (
-  <div>
-    <p>Suas preferências</p>
-
-    <legend>Qual dos tipos de comida abaixo você gosta ?</legend>
+  <Styled.ContainerPreferencia>
+    <Styled.Legend>Qual dos tipos de comida abaixo você gosta ?</Styled.Legend>
     <Styled.Label htmlFor="Mexicana">
       <Styled.InputCheckbox type="checkbox" id="Mexicana" accessKey="2" />
       Mexicana
@@ -27,7 +25,7 @@ const Preferencia = () => (
       <Styled.InputCheckbox type="checkbox" id="Outra" />
       Outra
     </Styled.Label>
-  </div>
+  </Styled.ContainerPreferencia>
 );
 
 export default Preferencia;

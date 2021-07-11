@@ -5,7 +5,7 @@ import * as Styled from './GeneralData.style';
 const GeneralData = () => (
   <>
     <Styled.GeneralDataContainer>
-      <legend>Dados gerais</legend>
+      <Styled.Legend>Dados gerais</Styled.Legend>
       <Styled.Label htmlFor="form_name" accessKey="1">
         Nome:
         <Styled.Input type="text" id="form_name" name="form_name" placeholder="escreva o seu nome" />

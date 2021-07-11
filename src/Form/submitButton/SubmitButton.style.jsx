@@ -9,7 +9,8 @@ const Button = styled.button`
     display: block;
     height: 40px;
     min-width: 150px;
-    margin: 40px auto 40px;
+    /* margin: 40px auto 40px; */
+    margin-bottom: 20px;
     width: 200px;
 `;
 

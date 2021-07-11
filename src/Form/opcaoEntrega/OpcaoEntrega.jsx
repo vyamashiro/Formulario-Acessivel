@@ -3,7 +3,7 @@ import React from 'react';
 import * as Styled from './OpcaoEntrega.style';
 
 const OpcaoEntrega = () => (
-  <div>
+  <Styled.ContainerOpcaoEntrega>
     <Styled.Label htmlFor="opcaoEntrega">
       Opção de entrega:
       <Styled.Label htmlFor="opçãoDomicilio">
@@ -15,7 +15,7 @@ const OpcaoEntrega = () => (
         Retirada no Local
       </Styled.Label>
     </Styled.Label>
-  </div>
+  </Styled.ContainerOpcaoEntrega>
 );
 
 export default OpcaoEntrega;

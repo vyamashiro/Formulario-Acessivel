@@ -7,5 +7,5 @@ export const SelectBox = styled.select`
   margin-top: 20px;
   margin-left: 5px;
   height: 25px;
-  width: 120px;
+  width: 150px;
 `;

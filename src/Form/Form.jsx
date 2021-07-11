@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/no-access-key */
 import React from 'react';
 import Navbar from './navbar/Navbar';
 import SubmitButton from './submitButton/SubmitButton';
@@ -7,7 +6,7 @@ import Preferencia from './preferencia/Preferencia';
 import OpcaoEntrega from './opcaoEntrega/OpcaoEntrega';
 import FormaPagamento from './formaPagamento/FormaPagamento';
 import CommentBox from './commentBox/CommentBox';
-import Footer from './footer/Footer';
+// import Footer from './footer/Footer';
 
 function Form() {
   return (
@@ -24,7 +23,7 @@ function Form() {
           <SubmitButton />
         </form>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

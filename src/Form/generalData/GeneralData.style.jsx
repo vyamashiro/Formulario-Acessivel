@@ -5,6 +5,10 @@ export const GeneralDataContainer = styled.div`
     margin-bottom: 20px;
 `;
 
+export const Legend = styled.legend`
+  margin-bottom: 10px;
+`;
+
 export const Label = styled.label`
     margin-right: 5px;
 `;
