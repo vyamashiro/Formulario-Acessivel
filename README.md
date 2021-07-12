@@ -1,18 +1,23 @@
-# Form_Acessibilidade
-Formulário com acessibilidade para leitor de tela.
+## Formulário Acessível
 Formulário modelo para treino de técnicas de acessibilidades, tais como:
 
--Atalho para seções específicas
--Controle de tabulação
-# Atalhos para seções do formulário de acordo com o browser.
+- Atalho para seções específicas;
+- WAI-ARIA;
+- Aumento/Diminuição de fonte (em andamento);
+- Aumento/Diminuição de contraste (em andamento).
+<!-- ## Atalhos para seções do formulário de acordo com o browser.
 Chrome
 Firefox
-Safari
+Safari -->
 
-# Leitores de tela indicado
-NVDA
+## Leitores de tela indicado
+- NVDA
+- JAWS
+- Orca para Linux
+- NVDA para Windows
+- VoiceOver para MacOS
 
-# Principais dependências
+## Principais dependências
 - React
 - Styled-Components
 - ESLint
@@ -21,6 +26,7 @@ NVDA
 Próximos passos
 - Ajustar CSS
 - Adicionar WAI-ARIA
+- Ajustar formulário para controlados
 - Ajustar nomes para português
 - Implementar aumento/diminuição do Zoom
 - Implementar aumento/diminuição da Fonte
