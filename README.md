@@ -2,11 +2,6 @@
 Formulário modelo para treino de técnicas de acessibilidades, tais como:
 - Atalho para seções específicas;
 - WAI-ARIA;
-- Aumento/Diminuição de fonte;
-- Aumento/Diminuição de contraste.
-
-- Atalho para seções específicas;
-- WAI-ARIA;
 - Aumento/Diminuição de fonte (em andamento);
 - Aumento/Diminuição de contraste (em andamento).
 <!-- ## Atalhos para seções do formulário de acordo com o browser.
