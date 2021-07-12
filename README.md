@@ -5,8 +5,21 @@ Formulário modelo para treino de técnicas de acessibilidades, tais como:
 - Aumento/Diminuição de fonte;
 - Aumento/Diminuição de contraste.
 
-## Exempos de leitores de tela
+- Atalho para seções específicas;
+- WAI-ARIA;
+- Aumento/Diminuição de fonte (em andamento);
+- Aumento/Diminuição de contraste (em andamento).
+<!-- ## Atalhos para seções do formulário de acordo com o browser.
+Chrome
+Firefox
+Safari -->
+
+## Leitores de tela indicado
 - NVDA
+- JAWS
+- Orca para Linux
+- NVDA para Windows
+- VoiceOver para MacOS
 
 ## Principais dependências
 - React
@@ -17,6 +30,7 @@ Formulário modelo para treino de técnicas de acessibilidades, tais como:
 Próximos passos
 - Ajustar CSS
 - Adicionar WAI-ARIA
+- Ajustar formulário para controlados
 - Ajustar nomes para português
 - Implementar aumento/diminuição do Zoom
 - Implementar aumento/diminuição da Fonte

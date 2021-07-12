@@ -3,8 +3,8 @@ import React from 'react';
 import * as Styled from './FormaPagamento.style';
 
 const FormaPagamento = () => (
-  <>
-    <Styled.Label htmlFor="formaPagamento">
+  <div role="group" aria-labelledby="grupo-forma-pagamento">
+    <Styled.Label htmlFor="formaPagamento" id="grupo-forma-pagamento">
       Forma de pagamento:
       <Styled.SelectBox>
         <option name="formaPagamento" value="dinheiro">dinheiro</option>
@@ -13,7 +13,7 @@ const FormaPagamento = () => (
         <option name="formaPagamento" value="cartão de débito">cartão de débito</option>
       </Styled.SelectBox>
     </Styled.Label>
-  </>
+  </div>
 );
 
 export default FormaPagamento;
