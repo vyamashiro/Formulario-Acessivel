@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/no-access-key */
 import React from 'react';
 import * as Styled from './OpcaoEntrega.style';
 

@@ -1,5 +1,9 @@
 ## Formulário Acessível
 Formulário modelo para treino de técnicas de acessibilidades, tais como:
+- Atalho para seções específicas;
+- WAI-ARIA;
+- Aumento/Diminuição de fonte;
+- Aumento/Diminuição de contraste.
 
 - Atalho para seções específicas;
 - WAI-ARIA;
