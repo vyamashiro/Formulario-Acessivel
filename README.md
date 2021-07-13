@@ -25,6 +25,7 @@ Safari -->
 Próximos passos
 - Ajustar CSS
 - Adicionar WAI-ARIA
+- Verificar se o yarn add eslint-plugin-jsx-a11y está funcionado
 - Ajustar formulário para controlados
 - Ajustar nomes para português
 - Implementar aumento/diminuição do Zoom
