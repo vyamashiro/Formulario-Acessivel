@@ -6,7 +6,7 @@ import Preferencia from './preferencia/Preferencia';
 import OpcaoEntrega from './opcaoEntrega/OpcaoEntrega';
 import FormaPagamento from './formaPagamento/FormaPagamento';
 import CommentBox from './commentBox/CommentBox';
-// import Footer from './footer/Footer';
+import Footer from './footer/Footer';
 
 function Form() {
   return (
@@ -23,7 +23,7 @@ function Form() {
           <SubmitButton />
         </form>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Form from './Form/Form';
+import Form from './componentes/Form';
 import GlobalStyle from './styles/global';
 
 ReactDOM.render(
