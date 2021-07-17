@@ -16,5 +16,6 @@ export const Label = styled.label`
 export const Input = styled.input`
     margin-left: 5px;
     height: 25px;
+    text-indent: 5px;
     width: 250px;
 `;
