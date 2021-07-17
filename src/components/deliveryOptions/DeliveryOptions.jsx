@@ -1,5 +1,5 @@
 import React from 'react';
-import * as Styled from './OpcaoEntrega.style';
+import * as Styled from './DeliveryOptions.style';
 
 const OpcaoEntrega = () => (
   <Styled.ContainerOpcaoEntrega role="group" aria-labelledby="grupo-opcao-entrega">

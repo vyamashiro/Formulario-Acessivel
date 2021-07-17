@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/no-access-key */
 import React from 'react';
-import * as Styled from './FormaPagamento.style';
+import * as Styled from './PaymentMethods.style';
 
 const FormaPagamento = () => (
   <div role="group" aria-labelledby="grupo-forma-pagamento">

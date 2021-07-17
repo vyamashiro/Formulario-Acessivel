@@ -1,11 +1,11 @@
 import React from 'react';
 import Navbar from './navbar/Navbar';
-import SubmitButton from './submitButton/SubmitButton';
 import GeneralData from './generalData/GeneralData';
-import Preferencia from './preferencia/Preferencia';
-import OpcaoEntrega from './opcaoEntrega/OpcaoEntrega';
-import FormaPagamento from './formaPagamento/FormaPagamento';
+import Preference from './preference/Preference';
+import DeliveryOptions from './deliveryOptions/DeliveryOptions';
+import PaymentMethods from './paymentMethods/PaymentMethods';
 import CommentBox from './commentBox/CommentBox';
+import SubmitButton from './submitButton/SubmitButton';
 import Footer from './footer/Footer';
 
 function Form() {
@@ -16,9 +16,9 @@ function Form() {
         <h1>Formulário Acessível</h1>
         <form>
           <GeneralData />
-          <Preferencia />
-          <OpcaoEntrega />
-          <FormaPagamento />
+          <Preference />
+          <DeliveryOptions />
+          <PaymentMethods />
           <CommentBox />
           <SubmitButton />
         </form>
