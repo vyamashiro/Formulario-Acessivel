@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/no-access-key */
 import React from 'react';
-import * as Styled from './Preferencia.style';
+import * as Styled from './Preference.style';
 
 const Preferencia = () => (
   <>

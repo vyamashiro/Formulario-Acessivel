@@ -8,5 +8,6 @@ export const CommentBox = styled.div`
 export const CommentTextArea = styled.textarea`
     margin-right: 5px;
     height: 100px;
+    padding: 10px;
     width: 645px;
 `;
