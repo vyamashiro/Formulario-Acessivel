@@ -7,13 +7,14 @@ import PaymentMethods from './paymentMethods/PaymentMethods';
 import CommentBox from './commentBox/CommentBox';
 import SubmitButton from './submitButton/SubmitButton';
 import Footer from './footer/Footer';
+import * as Styled from './Form.style';
 
 function Form() {
   return (
     <>
       <Navbar />
-      <main>
-        <h1>Formulário Acessível</h1>
+      <Styled.Main>
+        <Styled.MainTitle>Formulário Acessível</Styled.MainTitle>
         <form>
           <GeneralData />
           <Preference />
@@ -22,7 +23,7 @@ function Form() {
           <CommentBox />
           <SubmitButton />
         </form>
-      </main>
+      </Styled.Main>
       <Footer />
     </>
   );

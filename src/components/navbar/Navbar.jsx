@@ -4,9 +4,27 @@ import * as Styled from './Navbar.style';
 
 const Navbar = () => {
   // eslint-disable-next-line no-console
-  const aumentarFonte = () => { console.log('A+'); };
+  const increaseFontSize = (event) => {
+    event.preventDefault();
+    const abc = document.body.style.fontSize;
+    console.log('abc', abc);
+    const zzz = parseFloat(abc) + parseFloat('10%');
+    console.log('zzz', zzz);
+    return zzz;
+    // const fontSize = document.getElementByTag("li").style.fontSize;
+    // const getElement = document.getElementsByTagName('li');
+    // console.log('getElement', getElement);
+    // const style = window.getComputedStyle(getElement, null).getPropertyValue('font-size');
+    // const fontSize = parseFloat(style);
+    // console.log('fontSize', fontSize);
+    // document.getElementById("foo").style.fontSize = x + 1;
+  };
   // eslint-disable-next-line no-console
-  const diminuirFonte = () => { console.log('A-'); };
+  const decreaseFontSize = (event) => {
+    event.preventDefault();
+    document.body.style.transform = 'scale(1.5)';
+  };
+
   return (
     <Styled.Header>
       <Styled.Nav>
@@ -17,8 +35,8 @@ const Navbar = () => {
           <Styled.NavItem tabIndex="0">Deixe seu comentário (ALT + 3)</Styled.NavItem>
           <Styled.NavItem tabIndex="0">Rodapé (ALT + 4)</Styled.NavItem>
           <Styled.ButtonContainer>
-            <Styled.Button onClick={aumentarFonte}>A+</Styled.Button>
-            <Styled.Button onClick={diminuirFonte}>A-</Styled.Button>
+            <Styled.Button onClick={increaseFontSize}>A+</Styled.Button>
+            <Styled.Button onClick={decreaseFontSize}>A-</Styled.Button>
           </Styled.ButtonContainer>
         </ul>
       </Styled.Nav>

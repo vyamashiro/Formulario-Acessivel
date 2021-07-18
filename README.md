@@ -1,9 +1,10 @@
 ## Formulário Acessível
 Formulário modelo para treino de técnicas de acessibilidades, tais como:
-- Atalho para seções específicas;
+- Atalhos de navegação para seções específicas;
 - WAI-ARIA;
-- Aumento/Diminuição de fonte (em andamento);
-- Aumento/Diminuição de contraste (em andamento).
+- Adição de tabIndex="0" nos itens da navbar para que os itens sejam acessíveis através da tecla TAB.
+- Aumento/diminuição do tamanho da fonte (em andamento);
+- Aumento/diminuição de contraste (em andamento).
 <!-- ## Atalhos para seções do formulário de acordo com o browser.
 Chrome
 Firefox

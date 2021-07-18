@@ -7,9 +7,9 @@ const Button = styled.button`
     color: #FFFFFF;
     cursor: pointer;
     display: block;
+    font-size: 14px;
     height: 40px;
     min-width: 150px;
-    /* margin: 40px auto 40px; */
     margin-bottom: 20px;
     width: 200px;
 `;
