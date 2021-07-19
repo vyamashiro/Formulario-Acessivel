@@ -20,4 +20,7 @@ export const Input = styled.input`
     height: 25px;
     text-indent: 5px;
     width: 250px;
+    :focus {
+        border: 2px solid red;
+    }
 `;

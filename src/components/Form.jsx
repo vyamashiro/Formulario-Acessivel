@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './navbar/Navbar';
 import GeneralData from './generalData/GeneralData';
 import Preference from './preference/Preference';
@@ -10,9 +10,12 @@ import Footer from './footer/Footer';
 import * as Styled from './Form.style';
 
 function Form() {
+  const [fontSize, setFontSize] = useState(1);
+  const defaultProps = { fontSize };
+
   return (
     <>
-      <Navbar />
+      <Navbar defaultProps={defaultProps} setFontSize={setFontSize} />
       <Styled.Main>
         <Styled.MainTitle>Formulário Acessível</Styled.MainTitle>
         <form>

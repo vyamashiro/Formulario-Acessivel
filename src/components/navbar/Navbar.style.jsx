@@ -4,7 +4,8 @@ export const Header = styled.header`
   align-content: center;
   background-color: #e6e6dc;
   display: grid;
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: ${({ fontSize }) => `${fontSize * 16}px`};
   height: 40px;
   margin-bottom: 20px;
 `;
@@ -16,7 +17,6 @@ export const Nav = styled.nav`
 
 export const NavItem = styled.li`
   display: inline-block;
-  /* font-size: 16px; */
   list-style: none;
   margin-right: 20px;
 `;
