@@ -22,7 +22,7 @@ Safari -->
 - Styled-Components
 - ESLint
 
-![image info](./print-screen.png)
+![image info](./print-screen.PNG)
 
 <!-- 
 Próximos passos
