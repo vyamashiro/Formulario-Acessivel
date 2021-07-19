@@ -10,14 +10,14 @@ Chrome
 Firefox
 Safari -->
 
-## Leitores de tela indicado
+### Leitores de tela indicado
 - NVDA
 - JAWS
 - Orca para Linux
 - NVDA para Windows
 - VoiceOver para MacOS
 
-## Principais dependências
+### Principais dependências
 - React
 - Styled-Components
 - ESLint
@@ -31,6 +31,7 @@ Próximos passos
 - Implementar aumento/diminuição do Zoom
 - Implementar aumento/diminuição da Fonte
 - Implementar contraste preto/branco
+- Anotar no readme os atalhos por browser
 - Adicionar no rodapé uma tag address com um endereço fictício
 - Adicionar no rodapé um trecho de mídia social
 - Aviso de envio do formulário 

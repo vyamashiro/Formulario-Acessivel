@@ -8,12 +8,14 @@ const Navbar = ({ fontSize, setFontSize }) => {
   // const [state, setState] = useState();
 
   // eslint-disable-next-line no-console
+  // eslint-disable-next-line no-unused-vars
   const increaseFontSize = () => {
     // event.preventDefault();
     setFontSize(fontSize + 1);
     console.log('fontSize', fontSize);
   };
   // eslint-disable-next-line no-console
+    // eslint-disable-next-line no-unused-vars
   const decreaseFontSize = (event) => {
     event.preventDefault();
     // const decreaseFontSize = (setState, state) => {
@@ -32,10 +34,10 @@ const Navbar = ({ fontSize, setFontSize }) => {
           <Styled.NavItem tabIndex="0">Deixe seu comentário (ALT + 3)</Styled.NavItem>
           <Styled.NavItem tabIndex="0">Rodapé (ALT + 4)</Styled.NavItem>
           <Styled.ButtonContainer>
-            <Styled.Button onClick={() => { increaseFontSize(fontSize, setFontSize); }}>
+            {/* <Styled.Button onClick={() => { increaseFontSize(fontSize, setFontSize); }}>
               A+
-            </Styled.Button>
-            <Styled.Button onClick={decreaseFontSize}>A-</Styled.Button>
+            </Styled.Button> */}
+            {/* <Styled.Button onClick={decreaseFontSize}>A-</Styled.Button> */}
           </Styled.ButtonContainer>
         </ul>
       </Styled.Nav>
