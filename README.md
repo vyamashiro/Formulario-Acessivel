@@ -22,6 +22,8 @@ Safari -->
 - Styled-Components
 - ESLint
 
+![image info](./print-screen.JPG)
+
 <!-- 
 Próximos passos
 - Verificar se o yarn add eslint-plugin-jsx-a11y está funcionado
