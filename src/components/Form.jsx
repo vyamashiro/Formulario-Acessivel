@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './navbar/Navbar';
 import GeneralData from './generalData/GeneralData';
 import Preference from './preference/Preference';
@@ -7,13 +7,17 @@ import PaymentMethods from './paymentMethods/PaymentMethods';
 import CommentBox from './commentBox/CommentBox';
 import SubmitButton from './submitButton/SubmitButton';
 import Footer from './footer/Footer';
+import * as Styled from './Form.style';
 
 function Form() {
+  const [fontSize, setFontSize] = useState(1);
+  const defaultProps = { fontSize };
+
   return (
     <>
-      <Navbar />
-      <main>
-        <h1>Formulário Acessível</h1>
+      <Navbar defaultProps={defaultProps} setFontSize={setFontSize} />
+      <Styled.Main>
+        <Styled.MainTitle>Formulário Acessível</Styled.MainTitle>
         <form>
           <GeneralData />
           <Preference />
@@ -22,7 +26,7 @@ function Form() {
           <CommentBox />
           <SubmitButton />
         </form>
-      </main>
+      </Styled.Main>
       <Footer />
     </>
   );

@@ -4,16 +4,15 @@ import * as Styled from './GeneralData.style';
 
 const GeneralData = () => (
   <>
-    <Styled.GeneralDataContainer role="group" aria-labelledby="grupo-dados-gerais">
-      <Styled.Legend id="grupo-dados-gerais">Dados gerais</Styled.Legend>
+    <Styled.GeneralDataContainer>
       <Styled.Label htmlFor="form_name" accessKey="1">
         Nome:
-        <Styled.Input type="text" id="form_name" name="form_name" placeholder="escreva o seu nome" />
+        <Styled.Input type="text" id="form_name" name="form_name" placeholder="Escreva o seu nome" />
       </Styled.Label>
 
       <Styled.Label htmlFor="form_surname">
         Sobrenome:
-        <Styled.Input type="text" id="form_surname" surname="form_surname" placeholder="escreva o seu sobrenome" />
+        <Styled.Input type="text" id="form_surname" surname="form_surname" placeholder="Escreva o seu sobrenome" />
       </Styled.Label>
     </Styled.GeneralDataContainer>
   </>
