@@ -5,6 +5,10 @@ Formulário modelo para treino de técnicas de acessibilidades, tais como:
 - Adição de tabIndex="0" nos itens da navbar para que os itens sejam acessíveis através da tecla TAB.
 - Aumento/diminuição do tamanho da fonte (em andamento);
 - Aumento/diminuição de contraste (em andamento).
+### Como testar a aplicação ?
+- Acesse o terminal, instale as dependências com o comando yarn e rode a aplicação com yarn start;
+- Utilize um leitor de tela (ex.: NVDA) e use a tecla TAB para navegar entre os campos do formulário.
+
 <!-- ## Atalhos para seções do formulário de acordo com o browser.
 Chrome
 Firefox

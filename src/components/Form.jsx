@@ -17,8 +17,8 @@ function Form() {
     <>
       <Navbar defaultProps={defaultProps} setFontSize={setFontSize} />
       <Styled.Main>
-        <Styled.MainTitle>Formulário Acessível</Styled.MainTitle>
         <form>
+          <Styled.MainTitle>Formulário Acessível</Styled.MainTitle>
           <GeneralData />
           <Preference />
           <DeliveryOptions />
