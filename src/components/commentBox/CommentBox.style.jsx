@@ -1,17 +1,17 @@
 import styled from 'styled-components/macro';
 
 export const CommentBox = styled.div`
-    margin-top: 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
 `;
 
 export const Legend = styled.legend`
-    font-size: 16px;
+    font-size: ${({ fontSize }) => `${fontSize + 16}px`};
     margin-bottom: 10px;
 `;
 
 export const CommentTextArea = styled.textarea`
-    font-size: 14px;
+    font-size: ${({ fontSize }) => `${fontSize + 14}px`};
     height: 100px;
     margin-right: 5px;
     padding: 10px;

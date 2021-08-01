@@ -7,11 +7,15 @@ const Button = styled.button`
     color: #FFFFFF;
     cursor: pointer;
     display: block;
-    font-size: 14px;
+    font-size: ${({ fontSize }) => `${fontSize + 14}px`};
     height: 40px;
-    min-width: 150px;
     margin-bottom: 20px;
+    min-width: 150px;
+    transition: filter 0.2s;
     width: 200px;
+    &:hover {
+        filter: brightness(90%);
+    }
 `;
 
 export default Button;
