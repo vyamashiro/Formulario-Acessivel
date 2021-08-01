@@ -5,15 +5,15 @@ export const ContainerOpcaoEntrega = styled.div`
 `;
 
 export const Legend = styled.legend`
-  font-size: 16px;
+  font-size: ${({ fontSize }) => `${fontSize + 16}px`};
 `;
 
 export const Label = styled.label`
-  font-size: 16px;
+  font-size: ${({ fontSize }) => `${fontSize + 16}px`};
 `;
 
 export const InputRadio = styled.input`
-  font-size: 16px;
+  font-size: ${({ fontSize }) => `${fontSize + 16}px`};
   margin-left: 10px;
   margin-right: 5px;
 `;

@@ -3,7 +3,7 @@ Formulário modelo para treino de técnicas de acessibilidades, tais como:
 - Atalhos de navegação para seções específicas;
 - WAI-ARIA;
 - Adição de tabIndex="0" nos itens da navbar para que os itens sejam acessíveis através da tecla TAB.
-- Aumento/diminuição do tamanho da fonte (em andamento);
+- Aumento/diminuição do tamanho da fonte;
 - Aumento/diminuição de contraste (em andamento).
 ### Como testar a aplicação ?
 - Acesse o terminal, instale as dependências com o comando yarn e rode a aplicação com yarn start;
@@ -35,7 +35,6 @@ Próximos passos
 - Ajustar formulário para controlados
 - Ajustar responsividade
 - Implementar aumento/diminuição do Zoom
-- Implementar aumento/diminuição da Fonte
 - Implementar contraste preto/branco
 - Anotar no readme os atalhos por browser
 - Adicionar no rodapé uma tag address com um endereço fictício
