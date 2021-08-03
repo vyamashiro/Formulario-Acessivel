@@ -5,11 +5,12 @@ Formulário modelo para treino de técnicas de acessibilidades, tais como:
 - Adição de tabIndex="0" nos itens da navbar para que os itens sejam acessíveis através da tecla TAB.
 - Aumento/diminuição do tamanho da fonte;
 - Aumento/diminuição de contraste (em andamento).
-### Como testar a aplicação ?
+- 
+### Como usar a aplicação ?
 - Acesse o terminal, instale as dependências com o comando yarn e rode a aplicação com yarn start;
 - Utilize um leitor de tela (ex.: NVDA) e use a tecla TAB para navegar entre os campos do formulário.
 
-## Atalhos para seções do formulário de acordo com o browser.
+### Atalhos para seções do formulário de acordo com o browser.
 Sistema Operacional | Windows | Linux | Mac
 ------------------- | ------- | ----- | ----- 
 Chrome              | Alt + tecla | Alt + tecla | Control + Alt + tecla
@@ -36,13 +37,13 @@ Opera (versão 15+)  | Alt + tecla | Alt + tecla | Control + Alt + tecla
 <!-- 
 Próximos passos
 - Verificar se o yarn add eslint-plugin-jsx-a11y está funcionado
-- Ajustar formulário para controlados
 - Implementar contraste preto/branco
+- Ajustar formulário para controlados
 - Ajustar responsividade
-- Anotar no readme os atalhos por browser
+- Aviso de envio do formulário
 - Adicionar no rodapé uma tag address com um endereço fictício
 - Adicionar no rodapé um trecho de mídia social
-- Aviso de envio do formulário 
+- Versão 2
 - Implementar busca por áudio (vide API do Google)
 - Transformar a barra de acessibilidade em uma biblioteca react ou javascript ?
 -->
