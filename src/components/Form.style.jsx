@@ -5,5 +5,6 @@ export const MainTitle = styled.h1`
 `;
 
 export const Main = styled.main`
-    margin-left: 250px;
+  display: flex;
+  justify-content: center;
 `;
