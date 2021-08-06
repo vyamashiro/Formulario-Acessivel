@@ -32,10 +32,8 @@ const Navbar = ({ fontSize, setFontSize }) => {
           <Styled.NavItem tabIndex="0">Deixe seu comentário (ALT + 3)</Styled.NavItem>
           <Styled.NavItem tabIndex="0">Rodapé (ALT + 4)</Styled.NavItem>
           <Styled.ButtonContainer>
-            <Styled.Button onClick={increaseFontSize}>
-              A+
-            </Styled.Button>
-            <Styled.Button onClick={decreaseFontSize}>A-</Styled.Button>
+            <Styled.Button onClick={increaseFontSize}>Aumentar Fonte</Styled.Button>
+            <Styled.Button onClick={decreaseFontSize}>Diminuir Fonte</Styled.Button>
           </Styled.ButtonContainer>
         </ul>
       </Styled.Nav>

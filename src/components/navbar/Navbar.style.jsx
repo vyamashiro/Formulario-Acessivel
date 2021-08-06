@@ -25,7 +25,14 @@ export const ButtonContainer = styled.div`
 `;
 
 export const Button = styled.button`
-  background-color: #e6e6dc;
-  border-radius: 50%;
+  background-color: #00afc4;
+  border: 1px solid #00afc4;
+  box-shadow: 2px 2px 2px black;
+  color: #FFFFFF;
+  margin-left: 5px;
+  cursor: pointer;
   padding: 5px;
+  &:hover {
+        filter: brightness(90%);
+    }
 `;
