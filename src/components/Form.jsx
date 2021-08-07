@@ -1,13 +1,15 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React, { useState } from 'react';
 import Navbar from './navbar/Navbar';
-import GeneralData from './generalData/GeneralData';
-import Preference from './preference/Preference';
-import DeliveryOptions from './deliveryOptions/DeliveryOptions';
-import PaymentMethods from './paymentMethods/PaymentMethods';
-import CommentBox from './commentBox/CommentBox';
-import SubmitButton from './submitButton/SubmitButton';
 import Footer from './footer/Footer';
+import Image from './image/Image';
+import About from './about/About';
+// import GeneralData from './form/generalData/GeneralData';
+// import Preference from './form/preference/Preference';
+// import DeliveryOptions from './form/deliveryOptions/DeliveryOptions';
+// import PaymentMethods from './form/paymentMethods/PaymentMethods';
+// import CommentBox from './form/commentBox/CommentBox';
+// import SubmitButton from './form/submitButton/SubmitButton';
 import * as Styled from './Form.style';
 
 function Form() {
@@ -17,7 +19,9 @@ function Form() {
     <>
       <Navbar setFontSize={setFontSize} fontSize={fontSize} />
       <Styled.Main>
-        <form>
+        <About />
+        {/* <Image /> */}
+        {/* <form>
           <Styled.MainTitle fontSize={fontSize}>Formulário Acessível</Styled.MainTitle>
           <GeneralData fontSize={fontSize} />
           <Preference fontSize={fontSize} />
@@ -25,7 +29,7 @@ function Form() {
           <PaymentMethods fontSize={fontSize} />
           <CommentBox fontSize={fontSize} />
           <SubmitButton fontSize={fontSize} />
-        </form>
+        </form> */}
       </Styled.Main>
       <Footer />
     </>

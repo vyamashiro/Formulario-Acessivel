@@ -5,6 +5,8 @@ export const MainTitle = styled.h1`
 `;
 
 export const Main = styled.main`
+  background-color: #004271;
+  color: white;
   display: flex;
   justify-content: center;
 `;
