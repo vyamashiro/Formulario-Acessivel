@@ -1,15 +1,15 @@
-/* eslint-disable react/jsx-props-no-spreading */
 import React, { useState } from 'react';
+import NavbarAcessibility from './navbarAcessibility/NavbarAcessibility';
 import Navbar from './navbar/Navbar';
 import Footer from './footer/Footer';
-import Image from './image/Image';
-import About from './about/About';
-// import GeneralData from './form/generalData/GeneralData';
-// import Preference from './form/preference/Preference';
-// import DeliveryOptions from './form/deliveryOptions/DeliveryOptions';
-// import PaymentMethods from './form/paymentMethods/PaymentMethods';
-// import CommentBox from './form/commentBox/CommentBox';
-// import SubmitButton from './form/submitButton/SubmitButton';
+// import Image from './image/Image';
+// import About from './about/About';
+import GeneralData from './form/generalData/GeneralData';
+import Preference from './form/preference/Preference';
+import DeliveryOptions from './form/deliveryOptions/DeliveryOptions';
+import PaymentMethods from './form/paymentMethods/PaymentMethods';
+import CommentBox from './form/commentBox/CommentBox';
+import SubmitButton from './form/submitButton/SubmitButton';
 import * as Styled from './Form.style';
 
 function Form() {
@@ -17,11 +17,12 @@ function Form() {
 
   return (
     <>
-      <Navbar setFontSize={setFontSize} fontSize={fontSize} />
+      <NavbarAcessibility setFontSize={setFontSize} fontSize={fontSize} />
+      <Navbar fontSize={fontSize} />
       <Styled.Main>
-        <About />
+        {/* <About /> */}
         {/* <Image /> */}
-        {/* <form>
+        <form>
           <Styled.MainTitle fontSize={fontSize}>Formulário Acessível</Styled.MainTitle>
           <GeneralData fontSize={fontSize} />
           <Preference fontSize={fontSize} />
@@ -29,9 +30,9 @@ function Form() {
           <PaymentMethods fontSize={fontSize} />
           <CommentBox fontSize={fontSize} />
           <SubmitButton fontSize={fontSize} />
-        </form> */}
+        </form>
       </Styled.Main>
-      <Footer />
+      <Footer fontSize={fontSize} />
     </>
   );
 }

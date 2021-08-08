@@ -1,9 +1,6 @@
+/* eslint-disable no-unused-vars */
 import styled from 'styled-components/macro';
 
-export const Image = styled.img`
-  width: 500px;
-`;
+// export const Image = styled.div`
 
-export const Figcaption = styled.figcaption`
-    
-`;
+// `;

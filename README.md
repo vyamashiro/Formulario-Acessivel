@@ -39,15 +39,17 @@ Próximos passos
 - Verificar se o yarn add eslint-plugin-jsx-a11y está funcionado
 - Implementar contraste preto/branco
 - Ajustar formulário para controlados
-- Ajustar responsividade
-- Aviso de envio do formulário
 - Adicionar no rodapé uma tag address com um endereço fictício
+- Ajustar responsividade
+- Versão 2
+- Aviso de envio do formulário
 - Adicionar no rodapé um trecho de mídia social
 - Tranformar a página em uma página de estudos de acessibilidade com:
 -- Imagem acessível: usando as tags figure, img e figcaption
 -- Vídeo acessível com legenda
+-- Áudio acessível com texto
 -- Leitor de libras (vLibras)
-- Versão 2
+- Versão 3
 -- Página de explicação sobre acessibilidade e a importância da semântica.
 - Implementar busca por áudio (vide API do Google)
 - Transformar a barra de acessibilidade em uma biblioteca react ou javascript ?
