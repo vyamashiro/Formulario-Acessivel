@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/no-access-key */
-/* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 import * as Styled from './GeneralData.style';
 
