@@ -11,7 +11,8 @@ const FormaPagamento = ({ fontSize }) => (
         <option name="formaPagamento" value="dinheiro">dinheiro</option>
         <option name="formaPagamento" value="pix">pix</option>
         <option name="formaPagamento" value="cartão de crédito">cartão de crédito</option>
-        <option name="formaPagamento" value="cartão de débito">cartão de débito</option>
+        <option name="formaPagamento" value="cartão de débito">cartão de débito
+          </option>
       </Styled.SelectBox>
     </Styled.Label>
   </div>
