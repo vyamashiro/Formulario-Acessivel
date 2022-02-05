@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React, { useState } from 'react';
 import NavbarAcessibility from './navbarAcessibility/NavbarAcessibility';
 import Navbar from './navbar/Navbar';

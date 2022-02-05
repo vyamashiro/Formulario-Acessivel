@@ -22,7 +22,7 @@ module.exports = {
   rules: {
     quotes: ['error', 'single'],
     'react/prop-types': 'off',
-    'max-len': ['warn', { code: 120 }],
+    'max-len': ['warn', { code: 120, ignoreStrings: true }],
     'linebreak-style': ['error', 'unix'],
     'no-console': 'off',
     'no-restricted-syntax': [

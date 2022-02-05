@@ -12,7 +12,7 @@ function About() {
       <table>
         <caption>Como usar os atalhos</caption>
         <thead>Como usar os atalhos</thead>
-        <tbody>
+        {/* <tbody>
           <tr>
             <td>memória: </td>
             <td>8 gb</td>
@@ -22,7 +22,7 @@ function About() {
             <td>5 MP para fotos</td>
           </tr>
         </tbody>
-        <tfoot>Fonte: MDN</tfoot>
+        <tfoot>Fonte: MDN</tfoot> */}
       </table>
       {/* // Navegador / Sistema Operacional | Windows | Linux | Mac
       // ------------------- | ------- | ----- | -----
