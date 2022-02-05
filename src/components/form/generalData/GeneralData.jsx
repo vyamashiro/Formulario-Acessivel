@@ -4,9 +4,11 @@ import React, { useState } from 'react';
 import * as Styled from './GeneralData.style';
 
 const GeneralData = ({ fontSize }) => {
-  const [state, setState] = useState('');
+  const [name, setName] = useState('');
+  const [surname, setSurname] = useState('');
 
-  const handleChange = (event) => { setState(event.target.value); };
+  const handleChangeName = (event) => { setName(event.target.value); };
+  const handleChangeSurname = (event) => { setSurname(event.target.value); };
 
   return (
     <>
@@ -16,8 +18,8 @@ const GeneralData = ({ fontSize }) => {
           <Styled.Input
             fontSize={fontSize}
             type="text"
-            value={state}
-            onChange={handleChange}
+            value={name}
+            onChange={handleChangeName}
             id="form_name"
             name="form_name"
             placeholder="Escreva o seu nome"
@@ -29,8 +31,8 @@ const GeneralData = ({ fontSize }) => {
           <Styled.Input
             fontSize={fontSize}
             type="text"
-            value={state}
-            onChange={handleChange}
+            value={surname}
+            onChange={handleChangeSurname}
             id="form_surname"
             surname="form_surname"
             placeholder="Escreva o seu sobrenome"
