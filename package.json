@@ -47,15 +47,9 @@
     "eslint": "7.30.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-plugin-import": "2.22.1",
-<<<<<<< HEAD
-    "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-react": "7.24.0",
-    "eslint-plugin-react-hooks": "4"
-=======
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "4",
     "husky": "^7.0.2"
->>>>>>> b6c74c05f3d541d3cfbae1c7bebf9e7273de83bc
   }
 }
