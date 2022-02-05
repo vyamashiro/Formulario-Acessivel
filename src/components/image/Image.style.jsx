@@ -14,8 +14,12 @@ export const Figcaption = styled.figcaption`
   text-align: center;
 `;
 
-export const UL = styled.ul`
+export const Ul = styled.ul`
   margin-left: 20px;
+`;
+
+export const Li = styled.li`
+  margin-bottom: 10px;
 `;
 
 export const Link = styled.a`
@@ -26,11 +30,12 @@ export const Link = styled.a`
 `;
 
 export const TitleH1 = styled.h1`
-  margin: 10px 0px 10px 0px;
+  margin: 20px 0px 20px 0px;
+  text-align: center;
 `;
 
 export const TitleH2 = styled.h2`
-  margin: 10px 0px 10px 0px;
+  margin: 20px 0px 20px 0px;
 `;
 
 export const Paragraph = styled.p`

@@ -29,13 +29,13 @@ function Image() {
         <Styled.Paragraph>Imagens precisam ter um atributo alt dentro da tag img para que possam ser lidas por leitores de tela.</Styled.Paragraph>
         <Styled.TitleH2>Como escrever o atributo alt</Styled.TitleH2>
         <Styled.Paragraph>Para descrição do atributo alt é importante seguir algumas boas práticas que são:</Styled.Paragraph>
-        <Styled.UL>
-          <li>Utilize frases curtas e evite adjetivos;</li>
-          <li>Classifique o tipo da imagem (fotografia, tirinha, ilustração e etc);</li>
-          <li>Descreva a imagem seguindo esta ordem: da esquerda para a direita e, posteriormente, de cima para baixo;</li>
-          <li>Informe cores, tonalidades;</li>
-          <li>Descreva os elementos em uma sequência lógica.</li>
-        </Styled.UL>
+        <Styled.Ul>
+          <Styled.Li>UtiStyled.Lize frases curtas e evite adjetivos;</Styled.Li>
+          <Styled.Li>Classifique o tipo da imagem (fotografia, tirinha, ilustração e etc);</Styled.Li>
+          <Styled.Li>Descreva a imagem seguindo esta ordem: da esquerda para a direita e, posteriormente, de cima para baixo;</Styled.Li>
+          <Styled.Li>Informe cores, tonaStyled.Lidades;</Styled.Li>
+          <Styled.Li>Descreva os elementos em uma sequência lógica.</Styled.Li>
+        </Styled.Ul>
         <Styled.Paragraph>Baseado no artigo do site da site...</Styled.Paragraph>
       </article>
     </main>
