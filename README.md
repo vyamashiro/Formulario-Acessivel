@@ -27,6 +27,12 @@ Opera (versão 15+)  | Alt + tecla | Alt + tecla | Control + Alt + tecla
 - NVDA para Windows
 - VoiceOver para MacOS
 
+### Plugins/Widgets para Libras
+- vLibras: widget gratuito do governo federal para de um tradutor de libras digital.
+https://vlibras.gov.br/doc/widget/installation/webpageintegration.html
+- Hand Talk: plugin de libras da empresa Hand Talk.
+https://docs.handtalk.me/br/5/tradutor-de-sites#comecando-tradutor-de-sites
+
 ### Principais dependências
 - React
 - Styled-Components
