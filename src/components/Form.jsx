@@ -1,28 +1,17 @@
 /* eslint-disable linebreak-style */
-import React, { useState } from 'react';
-import NavbarAcessibility from './navbarAcessibility/NavbarAcessibility';
-import Navbar from './navbar/Navbar';
-import Footer from './footer/Footer';
-// import Image from './image/Image';
-// import About from './about/About';
+import React from 'react';
 import GeneralData from './form/generalData/GeneralData';
 import Preference from './form/preference/Preference';
 import DeliveryOptions from './form/deliveryOptions/DeliveryOptions';
 import PaymentMethods from './form/paymentMethods/PaymentMethods';
 import CommentBox from './form/commentBox/CommentBox';
 import SubmitButton from './form/submitButton/SubmitButton';
-import * as Styled from './Form.style';
+import * as Styled from './Form.styles';
 
-function Form() {
-  const [fontSize, setFontSize] = useState(0);
-
+function Form({ fontSize }) {
   return (
     <>
-      <NavbarAcessibility setFontSize={setFontSize} fontSize={fontSize} />
-      <Navbar fontSize={fontSize} />
       <Styled.Main>
-        {/* <About /> */}
-        {/* <Image /> */}
         <form>
           <Styled.MainTitle fontSize={fontSize}>Formulário Acessível</Styled.MainTitle>
           <GeneralData fontSize={fontSize} />
@@ -33,7 +22,6 @@ function Form() {
           <SubmitButton fontSize={fontSize} />
         </form>
       </Styled.Main>
-      <Footer fontSize={fontSize} />
     </>
   );
 }

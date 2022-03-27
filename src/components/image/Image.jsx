@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable no-trailing-spaces */
 import React from 'react';
 import Picture from './man-with-laptop-thinking.jpg';
@@ -16,7 +17,7 @@ function Image() {
             alt="foto de um homem pensativo sentado no chão com as pernas cruzadas e um notebook em seu colo."
           />
           <Styled.Figcaption>
-            créditos: 
+            Exemplo de descrição: foto de um homem pensativo sentado no chão com as pernas cruzadas e um notebook em seu colo.
             <Styled.Link
               target="_blank"
               rel="noreferrer noopener"
