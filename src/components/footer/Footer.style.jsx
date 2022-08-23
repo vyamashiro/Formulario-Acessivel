@@ -1,12 +1,23 @@
 import styled from 'styled-components/macro';
 
-const FooterContainer = styled.footer`
+export const FooterContainer = styled.footer`
+    align-items: flex-end;
     background-color: #e6e6dc;
     bottom: 0;
-    font-size: 16px;
-    height: 100px;
+    display: flex;
+    font-size: ${({ fontSize }) => `${fontSize + 16}px`};
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px 0 10px 0;
     position: absolute;
+    text-align: center;
     width: 100%;
+
+    a {
+        color: black;
+    }
 `;
 
-export default FooterContainer;
+export const Address = styled.address`
+    font-size: ${({ fontSize }) => `${fontSize + 12}px`};
+`;

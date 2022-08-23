@@ -1,10 +1,11 @@
-/* eslint-disable react/prop-types */
 import React from 'react';
 import Button from './SubmitButton.style';
 
 const SubmitButton = ({ fontSize }) => {
   const submitForm = (event) => {
     event.preventDefault();
+    // eslint-disable-next-line no-alert
+    alert('enviado');
   };
 
   return (

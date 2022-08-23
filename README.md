@@ -11,7 +11,7 @@ Formulário modelo para treino de técnicas de acessibilidades, tais como:
 - Utilize um leitor de tela (ex.: NVDA) e use a tecla TAB para navegar entre os campos do formulário.
 
 ### Atalhos para seções do formulário de acordo com o browser.
-Sistema Operacional | Windows | Linux | Mac
+Navegador / Sistema Operacional | Windows | Linux | Mac
 ------------------- | ------- | ----- | ----- 
 Chrome              | Alt + tecla | Alt + tecla | Control + Alt + tecla
 Firefox (versão 57+)| Alt + Shift + tecla | Alt + Shift + tecla | Control + Option + tecla ou Control + Alt + tecla
@@ -27,6 +27,12 @@ Opera (versão 15+)  | Alt + tecla | Alt + tecla | Control + Alt + tecla
 - NVDA para Windows
 - VoiceOver para MacOS
 
+### Plugins/Widgets para Libras
+- vLibras: widget gratuito do governo federal para de um tradutor de libras digital.
+https://vlibras.gov.br/doc/widget/installation/webpageintegration.html
+- Hand Talk: plugin de libras da empresa Hand Talk.
+https://docs.handtalk.me/br/5/tradutor-de-sites#comecando-tradutor-de-sites
+
 ### Principais dependências
 - React
 - Styled-Components
@@ -39,11 +45,18 @@ Próximos passos
 - Verificar se o yarn add eslint-plugin-jsx-a11y está funcionado
 - Implementar contraste preto/branco
 - Ajustar formulário para controlados
-- Ajustar responsividade
-- Aviso de envio do formulário
 - Adicionar no rodapé uma tag address com um endereço fictício
-- Adicionar no rodapé um trecho de mídia social
+- Ajustar responsividade
 - Versão 2
+- Aviso de envio do formulário
+- Adicionar no rodapé um trecho de mídia social
+- Tranformar a página em uma página de estudos de acessibilidade com:
+-- Imagem acessível: usando as tags figure, img e figcaption
+-- Vídeo acessível com legenda
+-- Áudio acessível com texto
+-- Leitor de libras (vLibras)
+- Versão 3
+-- Página de explicação sobre acessibilidade e a importância da semântica.
 - Implementar busca por áudio (vide API do Google)
 - Transformar a barra de acessibilidade em uma biblioteca react ou javascript ?
 -->
