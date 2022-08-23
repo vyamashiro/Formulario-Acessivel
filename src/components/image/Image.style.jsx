@@ -23,7 +23,7 @@ export const Li = styled.li`
 `;
 
 export const Link = styled.a`
-  color: white;
+  color: black;
   font-size: 12px;
   font-style: italic;
   text-decoration: none;

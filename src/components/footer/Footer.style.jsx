@@ -6,10 +6,10 @@ export const FooterContainer = styled.footer`
     bottom: 0;
     display: flex;
     font-size: ${({ fontSize }) => `${fontSize + 16}px`};
-    height: 90px;
     justify-content: center;
     margin-top: 20px;
     padding: 10px 0 10px 0;
+    position: absolute;
     text-align: center;
     width: 100%;
 
